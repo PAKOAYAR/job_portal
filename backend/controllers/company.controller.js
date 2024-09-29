@@ -49,6 +49,7 @@ export const getcompany = async (req, res) => {
 };
 
 export const getCompanyById = async (req, res) => {
+  //hello
   try {
     const companyId = req.params.id;
     const company = await Company.findById(companyId);
